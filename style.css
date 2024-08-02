@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*Global CSS*/
+.obj-width{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.faq-container{
+    box-shadow: 0 10px 20px rgb(149, 147, 147);
+    padding: 1.3rem;
+    border-radius: 10px;
+    margin-top: 7rem;
+    width: 380px;
+    margin-bottom: 22rem;
+    height: 390px;
+    background-color: rgb(248, 247, 246);
+}
+
+.faq{
+    display: flex;
+    gap: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.faq img{
+    width: 32px;
+}
+
+.minus-img img{
+    width: 20px;
+}
+
+.body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info p{
+    color: rgb(94, 93, 93);
+    font-size: 0.8rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+
+.quest{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+    border-top: 1px solid grey;
+    justify-content: space-between;
+    display: flex;
+}
+
+.plus img{
+    width: 20px;
+}
+
+@media(max-width: 500px){
+    .faq-container{
+        padding: 1rem;
+        width: 250px;
+    }
+
+    .head h1{
+        font-size: 1.3rem;
+    }
+
+    .img img{
+        width: 20px;
+    }
+
+    .text h5{
+        flex-wrap: wrap;
+    }
+
+    .info p{
+        margin-top: .5rem;
+        width: 200px;
+    }
+
+    .quest{
+        padding: .5rem;
+    }
+
+    .question{
+        font-size: 0.8rem;
+    }
+
+    .question h5{
+        flex-wrap: wrap;
+    }
+
+
+
+}
